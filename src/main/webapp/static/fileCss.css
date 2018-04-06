@@ -1,0 +1,27 @@
+.colore{
+background-color:#5cb85c;
+border-color:#4cae4c;
+}
+
+#logo{
+	width:160px;
+	height:100px;
+	margin-right:100px;
+	
+}
+.navbar-default .navbar-nav>li {
+	margin-top:10px;
+	margin-bottom:2px;
+	margin-right:25px;
+	font-size:18px;
+}
+.navbar-default .navbar-nav>li>a {
+	color:white;
+	hover:black;
+}
+
+.barra{
+	 padding: 20px;
+}
+
+

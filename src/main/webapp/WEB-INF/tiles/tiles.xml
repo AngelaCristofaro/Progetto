@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<!-- Templates -->
+	
+	<definition name="layout.basic" template="/WEB-INF/tiles/layout/basic.jsp">
+		<put-attribute name="title" value="Noleggio" />
+		<put-attribute name="header" value="" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer" value="/WEB-INF/tiles/view//footer.jsp" />
+	</definition>
+	
+	<!-- Pages -->	
+	
+<!-- 	<definition name="site.homepage" extends="layout.basic"> -->
+<!-- 		<put-attribute name="body" value="/WEB-INF/tiles/view/home/home.jsp" /> -->
+<!-- 	</definition> -->
+	
+	
+	<definition name="site.risorse" extends="layout.basic">
+		<put-attribute name="header" value="/WEB-INF/tiles/view/headerAdmin.jsp" />
+		<put-attribute name="body" value="/WEB-INF/tiles/view/risorse/saveRisorsa.jsp" />
+	</definition>
+	
+	<definition name="site.risorseUtente" extends="layout.basic">
+		<put-attribute name="header" value="/WEB-INF/tiles/view/headerUser.jsp" />
+		<put-attribute name="body" value="/WEB-INF/tiles/view/risorse/allRisorse.jsp" />
+	</definition>
+	
+	<definition name="site.utenti" extends="layout.basic">
+	    <put-attribute name="header" value="/WEB-INF/tiles/view/headerAdmin.jsp" />
+		<put-attribute name="body" value="/WEB-INF/tiles/view/utenti/utentiadmin.jsp" />
+	</definition>
+	
+	<definition name="site.registrazione" extends="layout.basic">
+	    <put-attribute name="header" value="/WEB-INF/tiles/view/headerUser.jsp" />
+		<put-attribute name="body" value="/WEB-INF/tiles/view/utenti/insert.jsp" />
+	</definition>
+	
+	<definition name="site.impostazioni" extends="layout.basic">
+	    <put-attribute name="header" value="/WEB-INF/tiles/view/headerUser.jsp" />
+		<put-attribute name="body" value="/WEB-INF/tiles/view/utenti/impostazioni.jsp" />
+	</definition>
+	
+</tiles-definitions>
