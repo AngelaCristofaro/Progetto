@@ -14,9 +14,10 @@ import javax.persistence.ManyToOne;
 @Entity(name="prenotazioni")
 public class Prenotazioni implements Serializable {
 	
-	/**
-	 * 
-	 */
+	public Prenotazioni() {
+		
+	}
+	
 	private static final long serialVersionUID = 1L;
 	@Id 
 	@GeneratedValue(strategy=GenerationType.AUTO)

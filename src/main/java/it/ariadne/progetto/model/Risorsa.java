@@ -27,7 +27,9 @@ public abstract class Risorsa implements Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 
+	
 		@OneToMany(mappedBy="risorsa")
+		@Transient
 		private List<Prenotazioni> prenotazioni;
 		@Column 
 		private int caratteristica;

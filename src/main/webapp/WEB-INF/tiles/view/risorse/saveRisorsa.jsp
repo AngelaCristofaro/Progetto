@@ -81,6 +81,7 @@
     	    });
 
 	var tabella = $('#tabella').DataTable( {
+		//var risorsa = $(risorsa);
 	    ajax: {
 	    	url: 'http://localhost:8080/risorse',
 	    	dataSrc: ''

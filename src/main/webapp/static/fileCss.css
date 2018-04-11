@@ -1,6 +1,6 @@
 .colore{
-background-color:#5cb85c;
-border-color:#4cae4c;
+background-color:#006000;
+border-color:#004200;
 }
 
 #logo{
@@ -24,4 +24,7 @@ border-color:#4cae4c;
 	 padding: 20px;
 }
 
-
+.foto{
+	display:block;
+	margin:30px auto;
+}

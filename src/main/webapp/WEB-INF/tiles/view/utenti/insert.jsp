@@ -1,6 +1,4 @@
-
-
-    <body>
+<body>
 <div id="includedContent"></div>
     <div class="container">
         <div class="row">
@@ -18,7 +16,7 @@
                                 <div class="form-group">
                                   Password: <input class="form-control" id="password"  name="password" type="password" >
                                 </div>
-                                <input type="submit" class="btn btn-lg btn-success btn-block" id="b1" value="Invio">
+                               <a href="/"> <input type="submit" class="btn btn-lg btn-success btn-block" id="b1" value="Invio"></a>
                             </fieldset>
                     </div>
                 </div>
@@ -55,4 +53,4 @@
     		}
     	    });
     	});
-</script>
+	</script>
